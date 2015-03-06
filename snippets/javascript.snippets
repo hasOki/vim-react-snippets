@@ -1,27 +1,27 @@
 snippet cs
 	var cx = React.addons.classSet;
 snippet cdm
-	componentDidMount: function() {
+	'componentDidMount' : function() {
 		${1}
 	},
 snippet cdup
-	componentDidUpdate: function(prevProps, prevState) {
+	'componentDidUpdate' : function(prevProps, prevState) {
 		${1}
 	},
 snippet cwm
-	componentWillMount: function() {
+	'componentWillMount' : function() {
 		${1}
 	},
 snippet cwr
-	componentWillReceiveProps: function(nextProps) {
+	'componentWillReceiveProps' : function(nextProps) {
 		${1}
 	},
 snippet cwun
-	componentWillUnmount: function() {
+	'componentWillUnmount' : function() {
 		${1}
 	},
 snippet cwu
-	componentWillUpdate: function(nextProps, nextState) {
+	'componentWillUpdate' : function(nextProps, nextState) {
 		${1}
 	},
 snippet cx
@@ -31,13 +31,13 @@ snippet cx
 snippet fup
 	forceUpdate(${1:callback});
 snippet gdp
-	getDefaultProps: function() {
+	'getDefaultProps' : function() {
 		return {
 			${1}
 		};
 	},
 snippet gis
-	getInitialState: function() {
+	'getInitialState' : function() {
 		return {
 			${1}: ${2}
 		};
@@ -49,7 +49,7 @@ snippet jsx
 	 * @jsx React.DOM
 	 */
 snippet pt
-	propTypes: {
+	'propTypes' : {
 		${1}: React.PropTypes.${2:string}
 	},
 snippet rcc
@@ -61,7 +61,7 @@ snippet rcc
 
 	var ${1:ClassName} = React.createClass({
 
-		render: function() {
+		'render' : function() {
 			return (
 				${0:<div />}
 			);
@@ -71,7 +71,7 @@ snippet rcc
 
 	module.exports = $1;
 snippet ren
-	render: function() {
+	'render' : function() {
 		return (
 			${1:<div />}
 		);
@@ -81,7 +81,7 @@ snippet sst
 		${1}: ${2}
 	});
 snippet scu
-	shouldComponentUpdate: function(nextProps, nextState) {
+	'shouldComponentUpdate' : function(nextProps, nextState) {
 		${1}
 	},
 snippet props

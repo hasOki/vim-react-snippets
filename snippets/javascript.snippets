@@ -53,14 +53,10 @@ snippet pt
 		${1}: React.PropTypes.${2:string}
 	},
 snippet rcc
-	/**
-	 * @jsx React.DOM
-	 */
-
 	var React = require('react');
 
 	var ${1:ClassName} = React.createClass({
-    'displayName': '${1:ClassName}',
+		'displayName': '${1:ClassName}',
 
 		'render' : function() {
 			return (
